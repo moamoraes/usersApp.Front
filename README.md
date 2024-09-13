@@ -5,6 +5,12 @@
 
 Aplicação criada em Angular 18
 
+Para executar aplicação, após baixar o código rodar os comandos:
+
+npm i
+
+ng serve
+
 A apiUrl pode ser alterada em:
 
 ![image](https://github.com/user-attachments/assets/facec4d4-d358-4567-8896-a618215dfdb9)
