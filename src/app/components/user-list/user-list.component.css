@@ -1,0 +1,36 @@
+.user-container {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  align-content: center;
+}
+
+.currency-right-align {
+  text-align: right;
+}
+
+.action-cell {
+  display: flex;
+  gap: 1rem;
+  padding: 10%;
+}
+
+@media (max-width: 1051px) {
+  .user-container {
+    padding: 1rem;
+  }
+  form {
+    flex-direction: column;
+  }
+  .action-cell {
+    flex-direction: column;
+  }
+}
